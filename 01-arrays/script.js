@@ -152,8 +152,11 @@ console.log('');
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
 console.log('Esercizio 8');
-const isTeachersEmpty = teachers.length;
+// 7
+const isTeachersEmpty = teachers.length === 0;
 
-if (isTeachersEmpty > 0){
+if (isTeachersEmpty === true){
   console.log('La griglia è vuota')
+} else {
+  console.log('La griglia non è vuota')
 }
